@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="餐饮/特产"
+        android:textSize="40dp"
+        android:gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/godata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="乘车日期："
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/gocar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="出发车次："
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btn_foodfind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询" />
+</LinearLayout>
